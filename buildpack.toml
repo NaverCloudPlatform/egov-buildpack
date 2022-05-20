@@ -17,10 +17,11 @@ api = "0.7"
 [buildpack]
   description = "A Cloud Native Buildpack with an order definition suitable for Java applications"
   homepage = "https://paketo.io/docs/howto/java"
-  id = "paketo-buildpacks/java"
+  id = "ncp-buildpacks/egov"
   keywords = ["java", "composite"]
-  name = "Paketo Java Buildpack"
-  version = "{{.version}}"
+  name = "NCP Egov Buildpack"
+  version = "1.0.0"
+  uri = "https://github.com/paketo-buildpacks/java/blob/main/LICENSE"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
@@ -61,9 +62,9 @@ api = "0.7"
     version = "6.4.3"
 
   [[order.group]]
-    id = "paketo-buildpacks/maven"
+    id = "ncp-buildpacks/egov-maven"
     optional = true
-    version = "6.5.2"
+    version = "1.0.0"
 
   [[order.group]]
     id = "paketo-buildpacks/sbt"
