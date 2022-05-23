@@ -18,7 +18,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/gradle:6.4.3"
 
 [[dependencies]]
-  uri = "docker://vpaasta.ncr.gov-ntruss.com/ncp-buildpacks/egov-maven:2022.06.23"
+  uri = "docker://vpaasta.ncr.gov-ntruss.com/ncp-buildpacks/egov-maven:4.0.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/sbt:6.4.2"
