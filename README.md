@@ -1,6 +1,6 @@
-# `gcr.io/paketo-buildpacks/java`
+# `docker.io/navercloud/egov-buildpack`
 
-The Paketo Java Buildpack is a Cloud Native Buildpack with an order definition suitable for Java applications.
+The NAVER Cloud Platform eGov Buildpack is a Cloud Native Buildpack that builds Maven-based applications from source with eGov Libray.
 
 ## Included Buildpacks
 
@@ -28,6 +28,7 @@ The Paketo Java Buildpack is a Cloud Native Buildpack with an order definition s
 * [`paketo-buildpacks/spring-boot`](https://github.com/paketo-buildpacks/spring-boot)
 * [`paketo-buildpacks/syft`](https://github.com/paketo-buildpacks/syft)
 * [`paketo-buildpacks/watchexec`](https://github.com/paketo-buildpacks/watchexec)
+* [`ncp-buildpacks/egov-maven`](https://github.com/NaverCloudPlatform/egov-maven-buildpack)
 
 ## License
 
